@@ -15,7 +15,7 @@ export const CustomerRewards = () => {
         try {
           const fetchData =  async ()=>{
 
-            const res = await fetch("http://localhost:8080/customerstransactions", {
+            const res = await fetch("http://localhost:8080/customertransactions", {
               headers: {
                 "Content-Type": "application/json",
               },
